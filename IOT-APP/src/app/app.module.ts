@@ -7,6 +7,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { CardComponent } from './card/card.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
 import { CradChapComponent } from './crad-chap/crad-chap.component';
 
@@ -21,6 +22,7 @@ import { CradChapComponent } from './crad-chap/crad-chap.component';
     MatGridListModule,
     MatCardModule,
     MatToolbarModule,
+    MatButtonModule,
     BrowserModule,
     BrowserAnimationsModule
   ],
